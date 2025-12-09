@@ -1,0 +1,12 @@
+,duration_days,pain_severity,worsening,fever,dizziness,hearing_change,nasal_discharge,immunocompromised,age,language,symptom_keywords,urgency
+count,4000.0,4000.0,4000,4000,4000,4000,4000,4000,4000.0,4000,4000,4000
+unique,,,2,2,2,2,4,2,,7,1062,3
+top,,,False,False,False,False,none,False,,French,ear_discharge,semi-urgent
+freq,,,2802,3045,3249,3413,1626,3606,,606,125,1845
+mean,15.58275,5.52125,,,,,,,45.90125,,,
+std,8.565891434142472,2.8799517301496564,,,,,,,25.456728181168973,,,
+min,1.0,1.0,,,,,,,1.0,,,
+25%,8.0,3.0,,,,,,,24.0,,,
+50%,16.0,5.0,,,,,,,46.0,,,
+75%,23.0,8.0,,,,,,,67.0,,,
+max,30.0,10.0,,,,,,,90.0,,,

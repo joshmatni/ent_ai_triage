@@ -44,7 +44,6 @@ class Settings(BaseSettings):
         )
 
 
-# 🔥 THIS LINE WAS MISSING — required for imports
 settings = Settings()
 
 

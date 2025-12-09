@@ -1,36 +1,3 @@
-#! worked
-
-# router = APIRouter(prefix="/ai")
-
-# class TriageRequest(BaseModel):
-#     transcript: str
-
-# class TriageResponse(BaseModel):
-#     summary: str
-#     urgency: str
-
-# @router.post("/triage", response_model=TriageResponse)
-# async def triage(payload: TriageRequest):
-#     transcript = payload.transcript
-
-#     # Call tiny model (raw text output)
-#     raw = await call_ollama(transcript)
-
-#     # Minimal processing — tiny model can't follow big prompts
-#     summary = raw.strip()[:500]
-#     urgency = "unknown"
-
-#     return TriageResponse(summary=summary, urgency=urgency)
-
-# added with prompt work
-
-# from fastapi import APIRouter
-# from pydantic import BaseModel
-# from app.ollama_client import call_ollama
-# from app.utils import extract_json_from_model_output
-# from app.backend_client import save_triage_to_backend
-
-
 from fastapi import APIRouter
 from pydantic import BaseModel
 
