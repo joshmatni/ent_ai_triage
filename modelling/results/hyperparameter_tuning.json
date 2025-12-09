@@ -1,0 +1,24 @@
+{
+    "naive_bayes": {
+        "best_params": {
+            "var_smoothing": 0.01
+        },
+        "best_score": 0.8624543689218523
+    },
+    "logistic_regression": {
+        "best_params": {
+            "C": 10.0,
+            "max_iter": 200,
+            "solver": "liblinear"
+        },
+        "best_score": 0.901645119238539
+    },
+    "random_forest": {
+        "best_params": {
+            "max_depth": null,
+            "min_samples_split": 5,
+            "n_estimators": 200
+        },
+        "best_score": 0.9925317327924542
+    }
+}
