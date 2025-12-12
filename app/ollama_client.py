@@ -26,8 +26,8 @@ async def call_ollama(transcript: str) -> str:
 
     # if resp.status_code >= 400:
     #     print("❌ Backend /triage-cases error:", resp.status_code)
-    #     print("❌ Error body:", resp.text)   # <— ADD THIS LINE
-    #     print("❌ Sent payload:", payload)    # <— AND THIS LINE
+    #     print("❌ Error body:", resp.text)
+    #     print("❌ Sent payload:", payload)
 
     resp.raise_for_status()
 
